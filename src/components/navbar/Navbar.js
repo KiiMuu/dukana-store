@@ -227,22 +227,22 @@ class Navbar extends Component {
                                                 <h3 className="uk-text-uppercase"><NavLink to='/'>Dukana</NavLink></h3>
                                                 <ul className="uk-list">
                                                     <li>
-                                                        <NavLink to="/">Sports</NavLink>
+                                                        <NavLink to="/sports">Sports</NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink to="/">Jackets</NavLink>
+                                                        <NavLink to="/jackets">Jackets</NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink to="/">Coats &amp; Shorts</NavLink>
+                                                        <NavLink to="/coats">Coats &amp; Shorts</NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink to="/">T-shirts</NavLink>
+                                                        <NavLink to="/t-shirts">T-shirts</NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink to="/">Outerwear</NavLink>
+                                                        <NavLink to="/outerwear">Outerwear</NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink to="/">Pans</NavLink>
+                                                        <NavLink to="/pans">Pans</NavLink>
                                                     </li>
                                                 </ul>
                                             </div>
