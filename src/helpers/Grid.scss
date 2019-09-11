@@ -1,0 +1,44 @@
+@import './Variables.scss';
+
+// menu
+
+@media ( max-width: 960px ) {
+    .clothes-types, .clothes-offers, .some-other-content {
+        margin-bottom: 50px;
+    }
+}
+
+// header
+@media ( max-width: 960px ) {
+    .nav-content {
+        position: relative !important;
+    }
+    .dukana-header {
+        position: relative !important;
+        .header-content {
+            margin-top: 0 !important;
+        }
+    }
+    .upper-bar, 
+    .dukana-navar {
+        background: rgba(38, 38, 38, 1) !important;
+    }
+}
+
+@media ( max-width: 640px ) {
+    .dukana-header {
+        .header-content {
+            h2 {
+                font-size: 42px !important;
+            }
+            p {
+                line-height: 1.7 !important;
+            }
+            button {
+                width: 160px !important;
+                height: 45px !important;
+                font-size: 13px !important;
+            }
+        }
+    }
+}

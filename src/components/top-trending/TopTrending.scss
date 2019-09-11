@@ -1,0 +1,96 @@
+@import '../../helpers/Variables.scss';
+@import '../../helpers/Mixins.scss';
+
+.dukana-top-trending {
+    padding-top: $paddingBetweenSections;
+    .top-trending-heading {
+        h1 {
+            color: $mainDark;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+    }
+    .uk-subnav {
+        justify-content: center;
+    }
+    .uk-subnav-pill {
+        .uk-active {
+            a {
+                background: $mainColor;
+            }
+        }
+    } 
+
+    // box style
+    .new {
+        background: $mainDark;
+        color: $mainLight;
+        padding: 5px;
+    }
+    .discount {
+        background: rgb(236, 79, 79);
+        color: $mainLight;
+        padding: 5px;
+    }
+
+    .our-products {
+        .uk-position-center {
+            width: 100%;
+        }
+        .product-info {
+            padding: 30px 0;
+            h4 {
+                color: $mainLight;
+                margin-bottom: 15px;
+            }
+            a {
+                margin-bottom: 15px;
+                display: block;
+            }
+            button {
+                border: none;
+                color: $mainLight;
+                &:focus, &:active {
+                    border: none;
+                }
+            }
+            .quick-view {
+                @include btnHoverEffect;
+            }
+            span {
+                color: $mainLight;
+            }
+        }
+        &:hover {
+            .product-info {
+                background: rgba(0, 0, 0, .60);
+                transition: background .2s ease-in-out;
+            }
+        }
+    }
+    .products-button {
+        @include btnHoverEffect;
+        button {
+            background: $mainDark;
+            border: none;
+            color: $mainLight;
+            padding: 20px;
+            outline: none;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// top trending box style
+
+.uk-position-right {
+    top: 20px;
+    right: 20px;
+}
+
+.uk-position-left {
+    top: 20px;
+    left: 20px;
+}

@@ -1,0 +1,12 @@
+@import '../../helpers/Variables.scss';
+
+.instagram {
+    background: linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .80)), url('../../imgs/hashtag/hashtag-cover.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+    p {
+        color: $mainLight;
+        font-size: 30px;
+    }
+}

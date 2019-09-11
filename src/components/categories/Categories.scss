@@ -1,0 +1,17 @@
+@import '../../helpers/Variables.scss';
+
+.dukana-categories {
+    padding-top: $paddingBetweenSections;
+    a {
+        text-decoration: none;
+        button {
+            background: $mainColor;
+            color: $mainLight;
+            border: none;
+            &:hover, &:focus {
+                background: $mainColor;
+                color: $mainLight;
+            }
+        }
+    }
+}

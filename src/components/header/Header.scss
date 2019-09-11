@@ -1,0 +1,51 @@
+@import '../../helpers/Grid.scss';
+
+.dukana-header {
+    .uk-overlay-primary {
+        background: linear-gradient(to right, rgba(0, 0, 0, .97) 0%, rgba(0, 0, 0, .91) 51%, rgba(0, 0, 0, .5) 100%);
+    }
+    .header-content {
+        margin-top: 50px;
+        h2 {
+            color: $mainColor;
+            font-size: 60px;
+            font-weight: 900;
+            margin-bottom: 0;
+        }
+        p {
+            line-height: 2;
+            margin: 18px 0;
+        }
+        button {
+            display: inline-block;
+            width: 180px;
+            height: 50px;
+            color: $mainLight;
+            background: $mainColor;
+            border: none;
+            position: relative;
+            font-size: 15px;
+            text-transform: uppercase;
+            cursor: pointer;
+            &::before, &::after {
+                content: '';
+                position: absolute;
+                background-color: inherit;
+                width: 0;
+                height: 3px;
+                transition: .3s;
+            }
+            &::before {
+                left: 0;
+                top: -5px;
+            }
+            &::after {
+                right: 0;
+                bottom: -5px;
+            }
+            &:hover::before, &:hover::after {
+                width: 100%;
+            } 
+        }
+    }
+}

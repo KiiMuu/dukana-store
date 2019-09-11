@@ -1,0 +1,17 @@
+@import '../../helpers/Variables.scss';
+
+.dukana-map {
+    .map-content {
+        .info {
+            height: 100px;
+            margin-bottom: -100px;
+            .info-content {
+                i {
+                    margin-right: 10px;
+                    color: $mainColor;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

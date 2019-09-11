@@ -1,0 +1,19 @@
+@import '../../helpers/Variables.scss';
+
+.dukana-features {
+    padding-top: $paddingBetweenSections;
+    .feature-box {
+        background: #FFF;
+        padding: 30px;
+        img {
+            margin-bottom: 20px;
+        }
+        h4 {
+            color: $mainDark;
+        }
+        p {
+            line-height: 1.7;
+            margin-bottom: 0;
+        }
+    }
+}

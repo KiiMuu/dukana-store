@@ -1,0 +1,158 @@
+@import '../../helpers/Grid.scss';
+@import '../../helpers/Variables.scss';
+
+// upper bar style
+
+.upper-bar {
+    padding: 20px 0;
+    z-index: 9;
+    background: rgba(38, 38, 38, .3);
+    position: relative;
+    .menu {
+        margin-right: 20px;
+        i {
+            color: $mainColor;
+        }
+        .menu-btn {
+            background: none;
+            border: none;
+            color: $mainLight;
+            font-size: 20px;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+    .search {
+        i {
+            font-size: 20px;
+            cursor: pointer;
+            color: $mainColor;
+        }
+    }
+}
+
+.uk-search-input {
+    font-size: 20px !important;
+}
+
+.clothes-types {
+    .uk-list {
+        a {
+            color: $mainColor;
+            text-decoration: none;
+            &::before {
+                background-color: $mainColor;
+                content: "";
+                display: inline-block;
+                height: 2px;
+                position: relative;
+                vertical-align: middle;
+                margin-right: 7px;
+                width: 0;
+                transition: .2s ease-in-out;
+            }
+            &:hover:before {
+                width: 7%;
+            }
+        }
+    }
+}
+
+.store-name {
+    a {
+        letter-spacing: 2px;
+        text-decoration: none;
+        color: $mainColor;
+        font-weight: 900;
+        font-size: 22px;
+        &:hover {
+            color: $mainColor;
+        }
+    }
+}
+
+.store-cart {
+    i {
+        font-size: 20px;
+        cursor: pointer;
+        color: $mainColor;
+    }
+}
+
+.uk-badge {
+    margin-top: -15px;
+    min-width: 18px;
+    height: 18px;
+    background: $mainColor !important;
+    color: $mainLight !important;
+}
+
+.cart-heading {
+    h4 {
+        color: $mainDark;
+    }
+}
+
+.value {
+    color: $mainDark;
+}
+
+// all modal headings
+h5 {
+    color: $mainDark;
+}
+
+// navbar style
+.dukana-navar {
+    min-height: 80px;
+    z-index: 9;
+    background: rgba(38, 38, 38, .3);
+    transition: .3s;
+    position: relative;
+    .uk-navbar-nav {
+        a {
+            color: $mainLight;
+            &:hover, &:active, &:focus {
+                color: $mainColor;
+            }
+        }
+    }
+}
+
+// sidebar style
+.sidebar {
+    i {
+        font-size: 20px;
+        cursor: pointer;
+        color: $mainColor;
+        margin-top: 33px;
+    }    
+}
+
+.uk-offcanvas {
+  .uk-offcanvas-bar {
+    h3 {
+        a {
+            color: $mainLight;
+            text-decoration: none;
+        }
+    }
+    ul {
+      padding-left: 0;
+      li {
+        list-style: none;
+        padding: 15px 0;
+        &:not(:last-child) {
+          border-bottom: 1px solid #2b2b2b;
+        }
+        a {
+          text-decoration: none;
+          color: $mainLight;
+          &:hover {
+              color: $mainColor;
+          }
+        }
+      }
+    }
+  }
+}
