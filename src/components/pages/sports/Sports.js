@@ -12,7 +12,7 @@ class Sports extends Component {
                         <div className="sidebar uk-width-1-4@m">
                             <ul data-uk-accordion>
                                 <li>
-                                    <a className="uk-accordion-title uk-text-uppercase" href="#">Top</a>
+                                    <button className="uk-accordion-title uk-text-uppercase">Top</button>
                                     <div className="uk-accordion-content">
                                         <ul className="uk-list">
                                             <li>Top 1</li>
@@ -22,7 +22,7 @@ class Sports extends Component {
                                     </div>
                                 </li>
                                 <li className="uk-open">
-                                    <a className="uk-accordion-title uk-text-uppercase" href="#">T-shirts &amp; Coats</a>
+                                    <button className="uk-accordion-title uk-text-uppercase">T-shirts &amp; Coats</button>
                                     <div className="uk-accordion-content">
                                         <ul className="uk-list">
                                             <li>Coats</li>
@@ -67,19 +67,19 @@ class Sports extends Component {
                                     </DukanaConsumer>
                                 </div>
                                 <ul className="uk-pagination uk-flex-center" data-uk-margin>
-                                    <li><a href="#"><span data-uk-pagination-previous></span></a></li>
-                                    <li><a href="#">1</a></li>
+                                    <li><a href="/"><span data-uk-pagination-previous></span></a></li>
+                                    <li><a href="/">1</a></li>
                                     <li className="uk-disabled"><span>...</span></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">5</a></li>
-                                    <li><a href="#">6</a></li>
+                                    <li><a href="/">4</a></li>
+                                    <li><a href="/">5</a></li>
+                                    <li><a href="/">6</a></li>
                                     <li className="uk-active"><span>7</span></li>
-                                    <li><a href="#">8</a></li>
-                                    <li><a href="#">9</a></li>
-                                    <li><a href="#">10</a></li>
+                                    <li><a href="/">8</a></li>
+                                    <li><a href="/">9</a></li>
+                                    <li><a href="/">10</a></li>
                                     <li className="uk-disabled"><span>...</span></li>
-                                    <li><a href="#">20</a></li>
-                                    <li><a href="#"><span data-uk-pagination-next></span></a></li>
+                                    <li><a href="/">20</a></li>
+                                    <li><a href="/"><span data-uk-pagination-next></span></a></li>
                                 </ul>
                             </div>
                         </div>

@@ -84,11 +84,11 @@ class ProductDetails extends Component {
                             <div className="product-desc">
                                 <div className="uk-container">
                                     <ul className="uk-subnav uk-subnav-pill" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-                                        <li><a href="#">Information</a></li>
-                                        <li><a href="#">Description</a></li>
-                                        <li><a href="#">Other Info</a></li>
-                                        <li><a href="#">Video</a></li>
-                                        <li><a href="#">Custom Tab</a></li>
+                                        <li><a href="/">Information</a></li>
+                                        <li><a href="/">Description</a></li>
+                                        <li><a href="/">Other Info</a></li>
+                                        <li><a href="/">Video</a></li>
+                                        <li><a href="/">Custom Tab</a></li>
                                     </ul>
 
                                     <ul className="uk-switcher uk-margin">

@@ -26,6 +26,7 @@
             position: relative;
             font-size: 15px;
             text-transform: uppercase;
+            outline: none;
             cursor: pointer;
             &::before, &::after {
                 content: '';

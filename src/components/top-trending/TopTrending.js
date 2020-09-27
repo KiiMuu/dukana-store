@@ -17,10 +17,10 @@ class TopTrending extends Component {
                     </div>
                     <div data-uk-filter="target: .js-filter">
                         <ul className="uk-subnav uk-subnav-pill uk-margin-medium-bottom">
-                            <li data-uk-filter-control=""><a href="#" className="uk-text-uppercase">All</a></li>
-                            <li data-uk-filter-control=".new-products"><a href="#" className="uk-text-uppercase">New products</a></li>
-                            <li data-uk-filter-control=".prices-drop"><a href="#" className="uk-text-uppercase">Prices drop</a></li>
-                            <li data-uk-filter-control=".best-sales"><a href="#" className="uk-text-uppercase">Best Sales</a></li>
+                            <li data-uk-filter-control=""><a href="/" className="uk-text-uppercase">All</a></li>
+                            <li data-uk-filter-control=".new-products"><a href="/" className="uk-text-uppercase">New products</a></li>
+                            <li data-uk-filter-control=".prices-drop"><a href="/"  className="uk-text-uppercase">Prices drop</a></li>
+                            <li data-uk-filter-control=".best-sales"><a href="/" className="uk-text-uppercase">Best Sales</a></li>
                         </ul>
                         <ul className="js-filter uk-grid-collapse uk-child-width-1-3@m uk-child-width-1-3@l uk-grid-small" data-uk-grid="masonry: true">
                             <DukanaConsumer>
